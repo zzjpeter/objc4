@@ -1,15 +1,15 @@
 //
-//  LGPerson.m
-//  KCObjcBuild
+//  ZZJPerson.m
+//  ZZJObjcBuild
 //
-//  Created by cooci on 2022/3/7.
+//  Created by peterzjzhu on 2022/3/7.
 //
 
-#import "LGPerson.h"
+#import "ZZJPerson.h"
 
-@implementation LGPerson
+@implementation ZZJPerson
 + (id)person{
-    return [[LGPerson alloc] init];
+    return [[ZZJPerson alloc] init];
 }
 
 + (id)allocString{

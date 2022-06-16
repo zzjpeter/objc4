@@ -5,7 +5,7 @@
 //  Created by peterzjzhu on 2022/6/15.
 //
 /**
- KC 重磅提示 调试工程很重要 源码直观就是爽
+ 调试工程很重要 源码直观就是爽
  ⚠️编译调试不能过: 请你检查以下几小点⚠️
  ①: 编译 targets 选择: ZZJObjcBuild
  ②: enable hardened runtime -> NO
@@ -13,8 +13,14 @@
  ④: team 选择 None
  */
 
+/*
+ //搜索 确定内存分配方式
+ inline size_t instanceSize(size_t extraBytes) const
+ 
+ */
+
 #import <Foundation/Foundation.h>
-#import "LGPerson.h"
+#import "ZZJPerson.h"
 extern void _objc_autoreleasePoolPrint(void);
 
 int main(int argc, const char * argv[]) {

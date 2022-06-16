@@ -152,8 +152,8 @@
 		C2EB731D23D8A38A0040672B /* dummy-library-mac-i386.c in Sources */ = {isa = PBXBuildFile; fileRef = C2EB731C23D8A38A0040672B /* dummy-library-mac-i386.c */; };
 		E8923DA5116AB2820071B552 /* objc-block-trampolines.mm in Sources */ = {isa = PBXBuildFile; fileRef = E8923DA0116AB2820071B552 /* objc-block-trampolines.mm */; };
 		E934A9F123E996D00088F26F /* objc4.plist in CopyFiles */ = {isa = PBXBuildFile; fileRef = E934A9EF23E9967D0088F26F /* objc4.plist */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		ED23509F285A028D0095405C /* LGPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = ED23509D285A028C0095405C /* LGPerson.m */; };
 		ED4E2A892859C536002349FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4E2A882859C536002349FD /* main.m */; };
+		EDB3B0BD285ACF4E0043B247 /* ZZJPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB3B0BB285ACF4E0043B247 /* ZZJPerson.m */; };
 		F378CAC725534BC000AC8F83 /* module.modulemap in Headers */ = {isa = PBXBuildFile; fileRef = F378CAC625534BAC00AC8F83 /* module.modulemap */; settings = {ATTRIBUTES = (Private, ); }; };
 		F9BCC71B205C68E800DD9AFC /* objc-blocktramps-arm64.s in Sources */ = {isa = PBXBuildFile; fileRef = 8379996D13CBAF6F007C2B5F /* objc-blocktramps-arm64.s */; };
 /* End PBXBuildFile section */
@@ -344,10 +344,10 @@
 		E934A9EF23E9967D0088F26F /* objc4.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = objc4.plist; sourceTree = "<group>"; };
 		E93EAF3426160C0900163877 /* preopt-caches.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "preopt-caches.entitlements"; sourceTree = "<group>"; };
 		E93EAF3526160C0900163877 /* preopt-caches.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "preopt-caches.mm"; sourceTree = "<group>"; };
-		ED23509D285A028C0095405C /* LGPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGPerson.m; sourceTree = "<group>"; };
-		ED23509E285A028D0095405C /* LGPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGPerson.h; sourceTree = "<group>"; };
 		ED4E2A862859C536002349FD /* ZZJObjcBuild */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ZZJObjcBuild; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED4E2A882859C536002349FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EDB3B0BB285ACF4E0043B247 /* ZZJPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZJPerson.m; sourceTree = "<group>"; };
+		EDB3B0BC285ACF4E0043B247 /* ZZJPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZJPerson.h; sourceTree = "<group>"; };
 		F378CAC625534BAC00AC8F83 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = module.modulemap; path = runtime/ModulePrivate/module.modulemap; sourceTree = "<group>"; };
 		F9BCC727205C68E800DD9AFC /* libobjc-trampolines.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = "libobjc-trampolines.dylib"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -602,8 +602,8 @@
 			isa = PBXGroup;
 			children = (
 				ED4E2A882859C536002349FD /* main.m */,
-				ED23509E285A028D0095405C /* LGPerson.h */,
-				ED23509D285A028C0095405C /* LGPerson.m */,
+				EDB3B0BC285ACF4E0043B247 /* ZZJPerson.h */,
+				EDB3B0BB285ACF4E0043B247 /* ZZJPerson.m */,
 			);
 			path = ZZJObjcBuild;
 			sourceTree = "<group>";
@@ -938,7 +938,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED4E2A892859C536002349FD /* main.m in Sources */,
-				ED23509F285A028D0095405C /* LGPerson.m in Sources */,
+				EDB3B0BD285ACF4E0043B247 /* ZZJPerson.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,15 +1,15 @@
 //
-//  LGPerson.h
-//  KCObjcBuild
+//  ZZJPerson.h
+//  ZZJObjcBuild
 //
-//  Created by cooci on 2022/3/7.
+//  Created by peterzjzhu on 2022/3/7.
 //
 
 #import <Foundation/Foundation.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface LGPerson : NSObject
+@interface ZZJPerson : NSObject
 
 + (id)person;
 
